@@ -42,7 +42,7 @@ function State() {
       </WorkingContainer>
 
       <DoneContainer>
-        <h3>Done.. 🔥</h3>
+        <h3>Done.. 🎉</h3>
         {todo.map((item) => {
           return item.isDone ? (
             <div className="card" key={item.id}>
